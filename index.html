@@ -16,23 +16,25 @@
         </div>
         <div class="form">
             <h1 class="title">Welcome back</h1>
-            <p>Login to your account</p>
-            <form action="">
-                <div class="input">
-                    <label for="Email"> Email</label>
+            <p class="text">Login to your account</p>
+            <form action="" >
+                 <label class="label" for="Email"> Email</label>
+                <div class="input-email">
                     <input type="email" name="Email" id="Email" placeholder="John.snow@gmail.com">
                 </div>
-                <div class="input">
-                    <label for="password">Password</label>
+                <label class="label" for="password">Password</label>
+                <div class="input-password">
                     <input type="password" name="password" id="password" placeholder="********">
                 </div>
                 <span class="check">
-                    <input type="checkbox" name="remember" id="remember">
-                    <label for="remember">Remember me</label>
+                    <input class="checkbox" type="radio" name="remember" id="remember">
+                    <label class="remember-label" for="remember">Remember me</label>
                     <a class="fogot-link" href="#">Forgot password?</a>
                 </span>
+                </form>
 <button class="btn-login" type="button">Login now</button>
-            </form>
+<button class="google-btn"><img class="img" src="./img/Google.png" alt="google" width="20" height="20">Or sign-in with google</button>
+            
         </div>
     </div>
 </body>
